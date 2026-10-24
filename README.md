@@ -1,5 +1,7 @@
 # Advanced PCB Design (Group 15)
 
+<a href="https://advancedpcbdesign.github.io/PCB/schematic.pdf"><strong>View Schematic (pdf) »</strong></a>
+
 ## KiCad Setup
 
 #### KiCAD JLCPCB tools

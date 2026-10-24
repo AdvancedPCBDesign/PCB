@@ -1,0 +1,58 @@
+name: Build Schematic PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "Group15/**.kicad_sch"
+      - "Group15/**.kicad_pro"
+      - ".github/workflows/schematic.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+env:
+  KICAD_IMAGE: kicad/kicad:10.0
+  ROOT_SCHEMATIC: Group15/Group15.kicad_sch # Root sheet; sub-sheets (RP2350A) are included in the PDF automatically
+  PDF_NAME: schematic.pdf
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Export schematic to PDF (KiCad 10)
+        run: |
+          mkdir -p site
+          docker run --rm \
+            --user "$(id -u):$(id -g)" \
+            -e HOME=/tmp \
+            -v "$PWD":/work -w /work \
+            "$KICAD_IMAGE" \
+            kicad-cli sch export pdf "$ROOT_SCHEMATIC" --output "site/$PDF_NAME"
+          ls -l site
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
