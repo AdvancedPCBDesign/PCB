@@ -4,6 +4,21 @@
 
 ## KiCad Setup
 
+### git
+
+Execute in same directory as this README file
+
+Before working on this project:
+- `git pull`
+
+See what's changed:
+- `git status`
+
+Commit and push changes:
+- `git add *`
+- `git commit -m "changes in ..."`
+- `git push`
+
 #### KiCAD JLCPCB tools
 [https://github.com/bouni/kicad-jlcpcb-tools](https://github.com/bouni/kicad-jlcpcb-tools)
 
