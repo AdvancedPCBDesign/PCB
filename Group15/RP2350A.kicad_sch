@@ -2645,170 +2645,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Symbol_Library:ABM8-272-T3"
 			(pin_names
 				(offset 1.016)
@@ -3124,6 +2960,268 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Symbol_Library:HX3X4X2.5-PA-4NPUSHBUTTONSWITCH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HX 3X4X2.5-PA-4N PUSH BUTTON SWITCH"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "C55200589:SW-SMD_4P-L4.2-W3.4-P2.15-LS5.2"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C55200589.pdf"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "hanxia(韩下)"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "HX 3x4x2.5-PA-4N push button switch"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C55200589"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HX3X4X2.5-PA-4NPUSHBUTTONSWITCH_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.25) (xy 0 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -0.51)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.03)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.52 -0.25) (xy 0.25 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -3.81 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3627,7 +3725,7 @@
 	)
 	(text "BOOTSEL Button\n"
 		(exclude_from_sim no)
-		(at 190.754 82.296 0)
+		(at 198.628 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3658,6 +3756,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e5b411c-5852-4aaa-8a53-7b3f01533a2a")
+	)
+	(junction
+		(at 261.62 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33143458-676e-43d0-b454-80b456ef1991")
+	)
+	(junction
+		(at 175.26 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "349e9e79-8d46-41f6-aaf0-9fe7eab83f39")
 	)
 	(junction
 		(at 177.8 125.73)
@@ -3696,6 +3806,12 @@
 		(uuid "5133e4a1-4fc9-44e9-bf7c-e3d3d99b5a8a")
 	)
 	(junction
+		(at 175.26 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57bf7576-8a6e-4d44-ae99-6de013320c1c")
+	)
+	(junction
 		(at 203.2 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3706,6 +3822,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85ee653a-577d-475a-958a-f90f1b4f73f9")
+	)
+	(junction
+		(at 248.92 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "905e2d41-9ca0-4685-b4d2-15e59baa08db")
 	)
 	(junction
 		(at 203.2 135.89)
@@ -3827,6 +3949,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 82.55) (xy 175.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0404a852-f5b4-4977-97bb-6f5e2a942738")
+	)
+	(wire
+		(pts
 			(xy 114.3 96.52) (xy 118.11 96.52)
 		)
 		(stroke
@@ -3874,6 +4006,16 @@
 			(type default)
 		)
 		(uuid "0dc7f8a3-9f06-4e26-95b4-4102f535cb9a")
+	)
+	(wire
+		(pts
+			(xy 248.92 152.4) (xy 254 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fdded67-3761-4b31-aca7-9516501aa4de")
 	)
 	(wire
 		(pts
@@ -4047,6 +4189,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 58.42) (xy 175.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33256061-7ee4-40f9-bc2a-a083a0bdfc2e")
+	)
+	(wire
+		(pts
+			(xy 248.92 152.4) (xy 248.92 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3426650f-1973-427f-8512-69286d0f49d8")
+	)
+	(wire
+		(pts
 			(xy 222.25 33.02) (xy 222.25 41.91)
 		)
 		(stroke
@@ -4207,16 +4369,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 58.42) (xy 175.26 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54949593-d8e8-4d87-90b6-11bce2e13427")
-	)
-	(wire
-		(pts
 			(xy 114.3 116.84) (xy 118.11 116.84)
 		)
 		(stroke
@@ -4357,6 +4509,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 74.93) (xy 185.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b6d26d-82fc-4d26-a230-7505ef8eafbe")
+	)
+	(wire
+		(pts
 			(xy 49.53 96.52) (xy 63.5 96.52)
 		)
 		(stroke
@@ -4364,6 +4526,16 @@
 			(type default)
 		)
 		(uuid "78f6b165-9f2c-447a-8e60-39f784c333ca")
+	)
+	(wire
+		(pts
+			(xy 175.26 71.12) (xy 185.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d31c8b-2a18-4f57-bac6-276149d2959f")
 	)
 	(wire
 		(pts
@@ -4377,7 +4549,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 82.55) (xy 175.26 85.09)
+			(xy 175.26 80.01) (xy 175.26 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4657,13 +4829,43 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 152.4) (xy 251.46 152.4)
+			(xy 175.26 82.55) (xy 185.42 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2a707e-6954-4582-b718-b69780a61b48")
+	)
+	(wire
+		(pts
+			(xy 243.84 152.4) (xy 248.92 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bb53c976-d8b9-4bf4-9fda-6e215805bda1")
+	)
+	(wire
+		(pts
+			(xy 175.26 71.12) (xy 175.26 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6b99f8-b4c4-4463-803f-8e40dc023230")
+	)
+	(wire
+		(pts
+			(xy 185.42 80.01) (xy 185.42 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be295d00-6d20-4ee1-b7dd-6b8731bd7107")
 	)
 	(wire
 		(pts
@@ -4737,16 +4939,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 152.4) (xy 265.43 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4814bdb-6c8a-43cc-97bb-83f84e9af0a5")
-	)
-	(wire
-		(pts
 			(xy 86.36 172.72) (xy 88.9 172.72)
 		)
 		(stroke
@@ -4757,6 +4949,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 152.4) (xy 265.43 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a460a7-1502-4633-a79b-6a63e27e384f")
+	)
+	(wire
+		(pts
 			(xy 254 115.57) (xy 264.16 115.57)
 		)
 		(stroke
@@ -4764,6 +4966,16 @@
 			(type default)
 		)
 		(uuid "d9237f5e-dae9-4969-a16d-67bc337a4fce")
+	)
+	(wire
+		(pts
+			(xy 259.08 162.56) (xy 261.62 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc07269c-0335-4520-a67c-6868ccbb9580")
 	)
 	(wire
 		(pts
@@ -4887,6 +5099,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 152.4) (xy 261.62 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee49468e-68de-4a1e-9cea-9c1ee8a82d18")
+	)
+	(wire
+		(pts
 			(xy 57.15 104.14) (xy 63.5 104.14)
 		)
 		(stroke
@@ -4974,6 +5196,16 @@
 			(type default)
 		)
 		(uuid "fe1a8db2-1b17-44d6-9135-97d3c571df02")
+	)
+	(wire
+		(pts
+			(xy 254 162.56) (xy 248.92 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff82b0fa-7674-4a25-ac17-6ac1bd076c4e")
 	)
 	(label "QSPI_SD1"
 		(at 49.53 121.92 0)
@@ -5527,7 +5759,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7 uF"
 			(at 62.23 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5538,7 +5770,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 59.69 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5607,7 +5839,7 @@
 				)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "15 pF"
 			(at 189.23 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5617,7 +5849,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 193.04 134.9248 0)
 			(hide yes)
 			(show_name no)
@@ -5699,7 +5931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 191.77 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -5778,7 +6010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 106.68 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5923,7 +6155,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100 nF"
 			(at 257.81 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5934,7 +6166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 254.9652 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6101,7 +6333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 39.878 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -6180,7 +6412,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 269.24 150.622 90)
 			(hide yes)
 			(show_name no)
@@ -6229,6 +6461,126 @@
 		)
 	)
 	(symbol
+		(lib_id "Symbol_Library:HX3X4X2.5-PA-4NPUSHBUTTONSWITCH")
+		(at 255.27 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4269a389-498a-4c13-91d3-316c47cef11a")
+		(property "Reference" "SW1"
+			(at 252.73 167.386 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "HX 3X4X2.5-PA-4N PUSH BUTTON SWITCH"
+			(at 242.824 165.608 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprint_Library:SW-SMD_4P-L4.2-W3.4-P2.15-LS5.2"
+			(at 266.7 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C55200589.pdf"
+			(at 269.24 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "hanxia(韩下)"
+			(at 271.78 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HX 3x4x2.5-PA-4N push button switch"
+			(at 274.32 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C55200589"
+			(at 276.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "2638def4-68dd-47ff-8960-8fe35ad16fe2")
+		)
+		(pin "1"
+			(uuid "f5f1b5e2-0bbc-4d83-8bba-324de53f9ac3")
+		)
+		(pin "2"
+			(uuid "8627b49e-30c2-41af-be8d-467cda26b4fa")
+		)
+		(pin "4"
+			(uuid "398fb421-e127-41ca-ab1f-36005e11591b")
+		)
+		(instances
+			(project "Group15"
+				(path "/d18e2577-1276-4c0d-bdfd-a503d70bff69/f3a1779e-924f-40b3-919f-c62ce97d678f"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 212.09 135.89 270)
 		(unit 1)
@@ -6259,7 +6611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 212.09 134.112 90)
 			(hide yes)
 			(show_name no)
@@ -6302,6 +6654,126 @@
 			(project "Group15"
 				(path "/d18e2577-1276-4c0d-bdfd-a503d70bff69/f3a1779e-924f-40b3-919f-c62ce97d678f"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbol_Library:HX3X4X2.5-PA-4NPUSHBUTTONSWITCH")
+		(at 180.34 78.74 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6188738b-30a5-47b3-9a44-e859ec7899f1")
+		(property "Reference" "SW2"
+			(at 190.246 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "HX 3X4X2.5-PA-4N PUSH BUTTON SWITCH"
+			(at 188.468 91.186 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprint_Library:SW-SMD_4P-L4.2-W3.4-P2.15-LS5.2"
+			(at 180.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C55200589.pdf"
+			(at 180.34 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "hanxia(韩下)"
+			(at 180.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HX 3x4x2.5-PA-4N push button switch"
+			(at 180.34 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C55200589"
+			(at 180.34 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c7a0512a-a230-4fd6-8de3-24c6c8a535b7")
+		)
+		(pin "1"
+			(uuid "4fc2ab7d-01d6-4c0e-affe-903e07784dc9")
+		)
+		(pin "2"
+			(uuid "44211ca6-7c53-4d75-9edc-05045aa697e0")
+		)
+		(pin "4"
+			(uuid "abccd05d-d3ec-4499-beab-1a8bfd50b7a0")
+		)
+		(instances
+			(project "Group15"
+				(path "/d18e2577-1276-4c0d-bdfd-a503d70bff69/f3a1779e-924f-40b3-919f-c62ce97d678f"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6494,7 +6966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 53.34 105.918 90)
 			(hide yes)
 			(show_name no)
@@ -6565,7 +7037,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7 uF"
 			(at 40.64 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6576,7 +7048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 38.1 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6778,88 +7250,6 @@
 			(project "Group15"
 				(path "/d18e2577-1276-4c0d-bdfd-a503d70bff69/f3a1779e-924f-40b3-919f-c62ce97d678f"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 175.26 77.47 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c2050c6-eada-4316-9d6b-d3543dc7782a")
-		(property "Reference" "SW1"
-			(at 176.53 76.1999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 176.53 78.7399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 175.26 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "639d14be-efbb-4c33-9b20-990e2fc4663b")
-		)
-		(pin "1"
-			(uuid "854d24f6-ade0-46ec-aa18-b1ede8aa69d7")
-		)
-		(instances
-			(project "Group15"
-				(path "/d18e2577-1276-4c0d-bdfd-a503d70bff69/f3a1779e-924f-40b3-919f-c62ce97d678f"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -7255,7 +7645,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 53.34 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -7335,7 +7725,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 248.92 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7495,7 +7885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.61 48.768 90)
 			(hide yes)
 			(show_name no)
@@ -7755,7 +8145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.482 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -7825,7 +8215,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7 uF"
 			(at 73.66 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7835,7 +8225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 73.66 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -7983,7 +8373,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3u"
+		(property "Value" "3.3 uH"
 			(at 99.187 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7993,7 +8383,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Vishay_IFSC-1515AH_4x4x1.8mm"
 			(at 99.06 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8374,7 +8764,7 @@
 				)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "15 pF"
 			(at 189.23 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8384,7 +8774,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 193.04 110.7948 0)
 			(hide yes)
 			(show_name no)
@@ -8466,7 +8856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 196.342 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -8748,86 +9138,6 @@
 			(project "Group15"
 				(path "/d18e2577-1276-4c0d-bdfd-a503d70bff69/f3a1779e-924f-40b3-919f-c62ce97d678f"
 					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 256.54 152.4 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7481a1a-5eee-4e03-8d08-13d0d1116bc9")
-		(property "Reference" "SW2"
-			(at 256.54 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 256.54 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 256.54 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0657ba34-adf0-4c6e-a34c-f5fe8593dd45")
-		)
-		(pin "1"
-			(uuid "4b8a559b-97c0-4cbf-b884-a50f8e6f3adc")
-		)
-		(instances
-			(project "Group15"
-				(path "/d18e2577-1276-4c0d-bdfd-a503d70bff69/f3a1779e-924f-40b3-919f-c62ce97d678f"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
