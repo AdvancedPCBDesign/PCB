@@ -1546,6 +1546,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3454,7 +3455,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "23392dd7-4f96-4121-8998-0a40d7c770df")
-		(at 1.505 3.265)
+		(at 149.175 68)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R28"
@@ -3600,13 +3601,13 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "248035c7-46be-4691-bb56-a3dbd20a7c1d")
-		(at 1.505 0.755)
+		(at 149.175 63)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R27"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "1005040c-4bf2-44fb-adaa-46437784d3ae")
+			(uuid "6db0402f-ef33-4d16-ba91-3e8a5a845c27")
 			(effects
 				(font
 					(size 1 1)
@@ -3617,7 +3618,7 @@
 		(property "Value" "5.1"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "251be6a2-d9d3-4103-83db-aa8b232334ee")
+			(uuid "f36c4060-4aef-46db-a33c-761dcdc37e08")
 			(effects
 				(font
 					(size 1 1)
@@ -3629,7 +3630,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c935e63f-8c48-4442-9ec5-a5a25ee7a202")
+			(uuid "639d1837-c99c-45f1-bf5b-3ab8a87e3c6d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +3641,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0868479e-55db-4cd8-8da7-97d768ca264f")
+			(uuid "b221c915-5786-4f8c-a33d-0564606c6a5e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6984,6 +6985,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8749,6 +8751,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9965,6 +9968,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15417,6 +15421,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18939,6 +18944,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19096,6 +19102,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19708,6 +19715,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
