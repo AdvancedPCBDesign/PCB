@@ -4284,8 +4284,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2198420e-efb0-41d5-84b4-8ade9debea85")
-		(property "Reference" "R10+-1%1"
-			(at 179.578 104.14 90)
+		(property "Reference" "R29"
+			(at 176.784 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4337,6 +4337,16 @@
 				)
 			)
 		)
+		(property "Comment" "+-1%1"
+			(at 179.07 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3255f921-92b8-4793-81b1-f48766ce351b")
 		)
@@ -4346,7 +4356,7 @@
 		(instances
 			(project "Group15"
 				(path "/d18e2577-1276-4c0d-bdfd-a503d70bff69/50fae2df-4067-4618-a343-1de51812e94a"
-					(reference "R10+-1%1")
+					(reference "R29")
 					(unit 1)
 				)
 			)

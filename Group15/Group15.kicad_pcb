@@ -200,17 +200,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C4275"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fabc690f-ab69-47aa-a92d-55a1b18a99f2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/50fae2df-4067-4618-a343-1de51812e94a/7078f535-dc0c-4eb8-bf3d-43db984e9172")
 		(sheetname "/Peripherals/")
@@ -358,17 +347,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C6186"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "71c1e712-c4b1-4068-b07d-7cf526e6644a")
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1044,17 +1022,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C23345"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7806b481-7fb4-4185-a928-b13e0453fcf4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/50fae2df-4067-4618-a343-1de51812e94a/2a37576f-5a49-4c7d-b6d4-f7c7eacb8cb9")
 		(sheetname "/Peripherals/")
@@ -1571,17 +1538,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C4275"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fa2164f4-4507-4fd7-ace2-5bd3aa237155")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/50fae2df-4067-4618-a343-1de51812e94a/dc2e4197-1d06-466a-98ba-c119f94aa762")
 		(sheetname "/Peripherals/")
@@ -1722,17 +1678,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3e23f91f-ffd7-4011-9ffa-a57a3555ceb0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C4275"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a9a113b1-5742-4b76-b942-f92e5220ba45")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,17 +2190,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C23140"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1d669377-1005-4516-9826-6b6e52315f3e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/50fae2df-4067-4618-a343-1de51812e94a/bf08f1ee-b8d2-472d-9c2d-464f1e16eacc")
 		(sheetname "/Peripherals/")
@@ -2659,18 +2593,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a0599a9f-6f0d-4294-9cd7-91d95b7f3495")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/f3a1779e-924f-40b3-919f-c62ce97d678f/2b555dbd-ace2-4b7f-9a63-57b860efaf73")
 		(sheetname "/RP2350A/")
@@ -2814,18 +2736,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c6ce1a1c-1561-4723-be50-69c963de6350")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -4631,11 +4541,11 @@
 				)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" "C17254494"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1ddc7245-ecf6-4041-91fb-f19bafd180d9")
+			(uuid "4ced8cd6-d8af-49df-8172-66c5d9d62c89")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,17 +5354,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C23345"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "bf8dfc72-17f2-4263-a202-623ced5ccf40")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/f3a1779e-924f-40b3-919f-c62ce97d678f/77f07bd6-8a4b-4daf-b84b-1245a7d5904f")
 		(sheetname "/RP2350A/")
@@ -5911,7 +5810,7 @@
 				(pins "11" "7" "4" "2" "1" "10" "5" "3" "12" "9" "8" "6")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.38 -1)
@@ -7277,17 +7176,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C4275"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "58c3479d-6e9f-4167-8410-6f722c6e1dcb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/50fae2df-4067-4618-a343-1de51812e94a/faef5858-7654-41e6-b175-2c6af053022e")
 		(sheetname "/Peripherals/")
@@ -7428,17 +7316,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "32972171-414a-4926-a510-1a57a28c694a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2480"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ea082d78-45cb-4844-8faa-09ea8d0ddd60")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7970,17 +7847,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ba3dc3b6-84d4-415f-a068-e461be93c958")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23140"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "da855d3a-1fdb-4189-906b-77e73bbf0e2e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,6 +8525,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9777,17 +9644,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C4275"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ac37e8b7-35eb-4a4b-a2c4-9f21fd8507f2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/50fae2df-4067-4618-a343-1de51812e94a/0b7f264e-0a73-4e26-a287-39cffed70d7d")
 		(sheetname "/Peripherals/")
@@ -9928,17 +9784,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2863dcf9-74c3-4289-bf6d-75f1f905bca0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "33673dd6-96e2-4990-8965-12efd8888137")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10193,7 +10038,7 @@
 		(at 177.045 70.285)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
-		(property "Reference" "R10+-1%1"
+		(property "Reference" "R29"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "e249af45-bb5c-4005-9fe0-301180eee711")
@@ -10234,6 +10079,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "+-1%1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf634f31-582e-45a1-b7ed-7e41145fe0d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10817,17 +10675,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "df189082-60cb-485d-baf4-3bd51a59b6ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C4275"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "2d182f2a-380f-404a-9290-e3e0b59f2478")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13049,17 +12896,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C4275"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e5a9192c-6648-42fe-b009-321cdf2a07d9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/50fae2df-4067-4618-a343-1de51812e94a/49ff21c5-fc66-4143-883a-58e5a8d0ef61")
 		(sheetname "/Peripherals/")
@@ -15135,17 +14971,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f1172e2b-f2c7-4b73-bc61-92198bcc0fca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C4275"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7b4d72b9-362d-41b6-b3fb-b081a682c2bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17250,8 +17075,8 @@
 			(unit
 				(name "A")
 				(pins "26" "51" "52" "60" "56" "57" "59" "58" "55" "21" "22" "24" "25"
-					"46" "53" "44" "54" "1" "11" "45" "38" "30" "20" "47" "61" "49" "48"
-					"50" "6" "39" "23" "2" "3" "4" "5" "7" "8" "9" "10" "12" "13" "14" "15"
+					"46" "53" "44" "54" "1" "45" "11" "38" "30" "20" "47" "61" "49" "48"
+					"50" "23" "39" "6" "2" "3" "4" "5" "7" "8" "9" "10" "12" "13" "14" "15"
 					"16" "17" "18" "19" "27" "28" "29" "31" "32" "33" "34" "35" "36" "37"
 					"40" "41" "42" "43"
 				)
