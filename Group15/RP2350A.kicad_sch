@@ -4187,6 +4187,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 106.68) (xy 49.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c75901b-b25c-4d56-8b40-d8875cdcbfea")
+	)
+	(wire
+		(pts
 			(xy 222.25 29.21) (xy 222.25 33.02)
 		)
 		(stroke
@@ -4667,7 +4677,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 104.14) (xy 49.53 104.14)
+			(xy 39.37 104.14) (xy 40.64 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4684,6 +4694,16 @@
 			(type default)
 		)
 		(uuid "c5522c60-40f6-472c-bf5a-c3cd3c361b78")
+	)
+	(wire
+		(pts
+			(xy 48.26 104.14) (xy 49.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f70aed-22af-4262-90bd-f06ac34c54b5")
 	)
 	(wire
 		(pts
@@ -4707,7 +4727,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 106.68) (xy 49.53 106.68)
+			(xy 39.37 106.68) (xy 40.64 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5666,6 +5686,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 44.45 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "044866cd-ddac-4cf5-9167-8fbead5531d5")
+		(property "Reference" "R27"
+			(at 47.752 100.838 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1"
+			(at 44.45 102.108 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 44.45 105.918 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fae6921f-dc57-4499-888d-0b9cf2afea9c")
+		)
+		(pin "1"
+			(uuid "de21d224-b661-4846-8c24-30ba34b34e20")
+		)
+		(instances
+			(project "Group15"
+				(path "/d18e2577-1276-4c0d-bdfd-a503d70bff69/f3a1779e-924f-40b3-919f-c62ce97d678f"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 186.69 46.99 0)
 		(unit 1)
@@ -6147,6 +6246,85 @@
 			(project "Group15"
 				(path "/d18e2577-1276-4c0d-bdfd-a503d70bff69/f3a1779e-924f-40b3-919f-c62ce97d678f"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b555dbd-ace2-4b7f-9a63-57b860efaf73")
+		(property "Reference" "R28"
+			(at 47.752 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1"
+			(at 44.704 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 44.45 108.458 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4465adbf-7647-4087-a633-6ca4c31a9e30")
+		)
+		(pin "2"
+			(uuid "2b927533-07cb-4586-a47c-86e2e927de21")
+		)
+		(instances
+			(project "Group15"
+				(path "/d18e2577-1276-4c0d-bdfd-a503d70bff69/f3a1779e-924f-40b3-919f-c62ce97d678f"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -6646,7 +6824,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "22"
 			(at 53.34 102.108 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7325,7 +7503,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "22"
 			(at 53.594 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
