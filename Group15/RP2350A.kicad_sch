@@ -5697,7 +5697,7 @@
 		(dnp no)
 		(uuid "044866cd-ddac-4cf5-9167-8fbead5531d5")
 		(property "Reference" "R27"
-			(at 47.752 100.838 90)
+			(at 44.196 100.076 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6263,7 +6263,7 @@
 		(dnp no)
 		(uuid "2b555dbd-ace2-4b7f-9a63-57b860efaf73")
 		(property "Reference" "R28"
-			(at 47.752 109.22 90)
+			(at 44.45 110.998 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6815,7 +6815,7 @@
 		(dnp no)
 		(uuid "77f07bd6-8a4b-4daf-b84b-1245a7d5904f")
 		(property "Reference" "R1"
-			(at 56.388 102.108 90)
+			(at 53.594 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7494,7 +7494,7 @@
 		(dnp no)
 		(uuid "97819935-15d6-4a82-a214-16b18582f884")
 		(property "Reference" "R2"
-			(at 56.642 109.22 90)
+			(at 53.594 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7567,7 +7567,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
