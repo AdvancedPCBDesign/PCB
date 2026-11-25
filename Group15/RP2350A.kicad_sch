@@ -7051,7 +7051,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7d323729-5d95-40ee-9072-f00d6242518e")
 		(property "Reference" "D5"
 			(at 13.716 59.69 90)

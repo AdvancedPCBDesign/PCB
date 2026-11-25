@@ -7105,7 +7105,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "765f0403-a8a0-4a5e-b68f-309d688f291b")
 		(property "Reference" "D6"
